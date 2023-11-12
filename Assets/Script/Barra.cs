@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 public class Barra : MonoBehaviour
 {
+    public LoadManager LoadManager;
     public Image barra;
     float timeBarra = 90; 
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (timeBarra <= 0)
+        {
+            LoadManager.Load("Die");
+        }
         timeBarra -= Time.deltaTime;
         barra.fillAmount = timeBarra / 90;
     }
