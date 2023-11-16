@@ -9,7 +9,7 @@ public class Barra : MonoBehaviour
     public Image barra;
     float timeBarra = 90; 
 
-    // Update is called once per frame
+
     void Update()
     {
         if (timeBarra <= 0)

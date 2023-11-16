@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InHouse.unity
     guid: d9638f70849174645b7fc1225726ac26
+  - enabled: 1
+    path: Assets/Scenes/Phase2.unity
+    guid: de3f0f199b5599444a83d04351156877
+  - enabled: 1
+    path: Assets/Scenes/Die2.unity
+    guid: 3df67ad2f2676b442a23db27447b34a0
+  - enabled: 1
+    path: Assets/Scenes/InHouse2.unity
+    guid: 45a97c39b400b14439104112e74a5b0b
   m_configObjects: {}
