@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Coletavel : MonoBehaviour
+public class CampfireManager : MonoBehaviour
 {
 
 
@@ -12,12 +12,12 @@ public class Coletavel : MonoBehaviour
 
         if (other.gameObject.CompareTag("Player"))
         {
-            ColetavelManager.instance.item++;
+            itemManager.instance.item++;
             Destroy(gameObject);
 
         }
-       
-        
+
+
 
 
     }

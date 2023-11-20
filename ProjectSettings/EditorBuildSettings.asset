@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InHouse2.unity
     guid: 45a97c39b400b14439104112e74a5b0b
+  - enabled: 1
+    path: Assets/Scenes/Phase3.unity
+    guid: 75dc594c41c70b742b72b36f1b91f7e4
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: e9eaa3eabcfc7084789e077f7def2c61
   m_configObjects: {}
