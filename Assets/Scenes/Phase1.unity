@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -1017,8 +1017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4fef274d798674ebcf19a6a27a5f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadManager: {fileID: 1366672627}
   barra: {fileID: 529566975}
+  sceneToLoad: Die
 --- !u!1 &492795299 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 374289202576707483, guid: 78df1db2fbc8ec64f949fac0c05bf693, type: 3}

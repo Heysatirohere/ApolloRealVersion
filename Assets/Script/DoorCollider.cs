@@ -10,7 +10,7 @@ public class DoorCollider : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && key.item == 1)
         {
-            manager.Load("InHouse");
+            manager.Load("Phase2");
         }
     }
     void Start()

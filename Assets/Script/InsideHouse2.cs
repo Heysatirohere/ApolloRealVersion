@@ -9,7 +9,7 @@ public class InsideHouse2 : MonoBehaviour
     {
         if (Collider.gameObject.tag == "Player")
         {
-            Manager.Load("InHouse2");
+            Manager.Load("Phase3");
         }
     }
 
