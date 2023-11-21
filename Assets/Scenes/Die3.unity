@@ -719,7 +719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "O tempo esfriou. Voc\xEA morreu"
+  m_Text: "O tempo esfriou. Voc\xEA morreu.\n\xC9 s\xF3 um jogo, por enquanto"
 --- !u!222 &1290790103
 CanvasRenderer:
   m_ObjectHideFlags: 0
