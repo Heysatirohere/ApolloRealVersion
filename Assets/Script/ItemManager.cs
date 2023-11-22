@@ -22,7 +22,7 @@ public class itemManager : MonoBehaviour
     void Update()
     {
 
-        CountItem.text = "Gravetos: " + item.ToString() + " /10";
+        CountItem.text = "Gravetos: " + item.ToString() + " /8";
 
     }
 }
