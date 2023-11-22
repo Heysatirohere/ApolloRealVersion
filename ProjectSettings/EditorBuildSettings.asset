@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Die3.unity
     guid: f8e470c42fabe5243828e12a405c5ca4
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: f12850e2f4c97b94a9d89b057165465b
   m_configObjects: {}
