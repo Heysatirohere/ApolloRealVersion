@@ -12,11 +12,12 @@ public class Coletavel : MonoBehaviour
 
         if (other.gameObject.CompareTag("Player"))
         {
-            itemManager.instance.item++;
+            ColetavelManager.instance.item++;
             Destroy(gameObject);
 
         }
        
+        
 
 
     }

@@ -8,7 +8,7 @@ public class CampFireCollider : MonoBehaviour
     public LoadManager LoadManager;
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Player" && Stick.item == 10)
+        if (collision.gameObject.tag == "Player" && Stick.item >= 10)
         {
             LoadManager.Load("End"); 
         }
